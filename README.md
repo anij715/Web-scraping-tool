@@ -51,6 +51,9 @@ Replace `<URL>` with the URL of the webpage you want to scrape. The script will 
 ### How It Works
 The script sends an `HTTP GET` request to the specified URL to retrieve the HTML content. It then uses the BeautifulSoup library to parse the HTML and find all `<table>` tags. For each table found, it extracts the headers (from `<th>` tags) and the rows (from `<tr>` and `<td>` tags). Finally, it uses the Pandas library to organize the data and save it as a `CSV` file.
 
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
 ## Acknowledgments
 This project was submitted as part of the Bachelor's Degree in Computer Science & Engineering at KIIT Deemed to be University under thr guidance of Prof. Sujoy Datta.
 [Full Report](https://www.researchgate.net/publication/341949318_DATA_CRAPER)
